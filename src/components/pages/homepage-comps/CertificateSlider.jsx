@@ -41,7 +41,7 @@ const CertificateSlider = ({ certificates }) => {
             }, {
         
                 breakpoint: 280,
-                settings: "unslick" // destroys slick
+                settings: "unslick"
         
             }]
     };

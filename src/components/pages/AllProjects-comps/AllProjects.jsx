@@ -1,7 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
-import easyshop from '/images/projectsImages/easyshop.webp'
 import todomachine from '/images/projectsImages/todomachine.webp'
 
 const AllProjects = () => {
@@ -9,9 +7,9 @@ const AllProjects = () => {
     const projects = [
         {
             id: 1,
-            src: easyshop,
+            src: "/images/projectsImages/Shoppers.png",
             demo: '',
-            code: ''
+            code: 'https://github.com/singhkrishna01/Shoppers_Ecommerce'
         },
         {
             id: 2,

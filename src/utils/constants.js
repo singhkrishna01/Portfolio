@@ -1,12 +1,12 @@
 const projects = [
   {
     id: 1,
-    title: "EasyShop",
-    description: "Ecommerce created with React JS and Tailwind CSS",
-    technologies: "Javascript, React, Redux, Tailwind CSS",
-    src: "/images/projectsImages/easyshop.webp",
+    title: "Shoppers",
+    description: "SHOPPER's project focuses on offering the latest fashion collections for men, women, and kids. Their promotional campaign highlights trendy and comfortable clothing, featuring eye-catching visuals and user-friendly navigation. The project emphasizes inclusivity and modern style, aiming to attract a wide range of customers.",
+    technologies: "Javascript, ReactJS, MongoDB, Express, NodeJS, Redux, Tailwind CSS",
+    src: "/images/projectsImages/Shoppers.png",
     demo: "",
-    code: "",
+    code: "https://github.com/singhkrishna01/Shoppers_Ecommerce",
   },
   {
     id: 2,

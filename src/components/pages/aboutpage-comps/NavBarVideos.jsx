@@ -10,14 +10,6 @@ const NavbarVideos = () => {
             id: 1,
             link: "About"
         },
-        // {
-        //     id: 3,
-        //     link: "Creator"
-        // },
-        // {
-        //     id: 4,
-        //     link: 'Hobbies'
-        // }
     ]
 
     const [isShowNav, setIsShowNav] = useState(false)
