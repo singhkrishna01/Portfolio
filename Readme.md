@@ -100,7 +100,7 @@ Portfolio/
 - 📊 **Visitor Analytics** – Track engagement and interactions.
 
 ## 📞 Contact Me
-📩 **Email:** krishna00csgmail.com
+📩 **Email:** krishna00cs@gmail.com
 
 🔗 **Leetcode:** [Krishna2011](https://leetcode.com/u/Krishna2011/)  
 
