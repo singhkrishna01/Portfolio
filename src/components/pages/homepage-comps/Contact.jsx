@@ -106,6 +106,31 @@ const Contact = () => {
                                         <div className='absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
                                     </button>
                                 </div>
+
+                                {/* Divider */}
+                                <div className='flex items-center my-6'>
+                                    <div className='flex-1 border-t border-gray-600/50'></div>
+                                    <span className='px-4 text-gray-400 text-sm'>or</span>
+                                    <div className='flex-1 border-t border-gray-600/50'></div>
+                                </div>
+
+                                {/* Quick Meeting Button */}
+                                <div className='pt-2'>
+                                    <a 
+                                        href="https://cal.com/krishnasingh/15min" 
+                                        target="_blank" 
+                                        rel="noopener noreferrer"
+                                        className='w-full group relative overflow-hidden bg-gradient-to-r from-purple-600 via-primary-color to-purple-600 text-white font-bold py-4 px-8 rounded-xl hover:from-primary-color hover:via-purple-600 hover:to-primary-color transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/30 transform block text-center'
+                                    >
+                                        <span className='relative z-10 flex items-center justify-center space-x-2'>
+                                            <svg className='w-5 h-5' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                                                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z' />
+                                            </svg>
+                                            <span>Schedule a Quick Meeting</span>
+                                        </span>
+                                        <div className='absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
+                                    </a>
+                                </div>
                             </form>
                         </div>
                     </div>

@@ -74,9 +74,14 @@ const Navbar = () => {
 
             {/* CTA Button */}
             <div className='flex items-center'>
-                <button className='relative px-6 py-3 bg-gradient-to-r from-primary-color via-purple-600 to-primary-color text-black font-semibold rounded-xl hover:from-purple-600 hover:via-primary-color hover:to-purple-600 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/30 liquid-button'>
+                <a 
+                    href="https://cal.com/krishnasingh/15min" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className='relative px-6 py-3 bg-gradient-to-r from-primary-color via-purple-600 to-primary-color text-black font-semibold rounded-xl hover:from-purple-600 hover:via-primary-color hover:to-purple-600 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/30 liquid-button'
+                >
                     <span className='relative z-10'>Get In Touch</span>
-                </button>
+                </a>
             </div>
         </header>
     )
